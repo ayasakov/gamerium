@@ -1,0 +1,28 @@
+{
+  "name": "gamerium",
+  "version": "0.0.1",
+  "description": "react, node.js, ssr",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayasakov/gamerium.git"
+  },
+  "author": "Artem Yasakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayasakov/gamerium/issues"
+  },
+  "homepage": "https://github.com/ayasakov/gamerium#readme",
+  "dependencies": {
+    "@types/node": "20.4.4",
+    "nodemon": "3.0.1",
+    "rimraf": "5.0.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.6"
+  }
+}
