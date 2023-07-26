@@ -1,0 +1,24 @@
+{
+  "name": "gamerium-client",
+  "version": "0.0.1",
+  "description": "react, @mui, mobx",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "Artem Yasakov",
+  "license": "MIT",
+  "dependencies": {
+    "@vitejs/plugin-react": "4.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6",
+    "vite": "4.4.7"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.16",
+    "@types/react-dom": "18.2.7",
+    "glob": "10.3.3"
+  }
+}
